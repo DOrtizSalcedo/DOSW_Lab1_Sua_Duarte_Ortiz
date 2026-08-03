@@ -2,7 +2,9 @@
 
 ### Integrantes:
 * Daniel Felipe Sua Siempira
+  
 * David Felipe Ortiz Salcedo
+
 * Juan Pablo Duarte Silva
 
 ### Acuerdos de trabajo en equipo
