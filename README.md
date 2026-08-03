@@ -1,9 +1,9 @@
 # DOSW_Lab1_Sua_Duarte_Ortiz
 
 ### Integrantes:
-Daniel Felipe Sua Siempira
-David Felipe Ortiz Salcedo
-Juan Pablo Duarte Silva
+* Daniel Felipe Sua Siempira
+* David Felipe Ortiz Salcedo
+* Juan Pablo Duarte Silva
 
 ### Acuerdos de trabajo en equipo
 Cada equipo debe definir acuerdos de trabajo en equipo, es decir, las reglas que utilizarán para trabajar juntos durante el semestre:
