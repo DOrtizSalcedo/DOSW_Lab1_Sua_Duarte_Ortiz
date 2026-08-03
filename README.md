@@ -1,8 +1,11 @@
 # DOSW_Lab1_Sua_Duarte_Ortiz
 
-## Parte 0 — Incorporación
+### Integrantes:
+Daniel Felipe Sua Siempira
+David Felipe Ortiz Salcedo
+Juan Pablo Duarte Silva
 
-### 2. Acuerdos de trabajo en equipo
+### Acuerdos de trabajo en equipo
 Cada equipo debe definir acuerdos de trabajo en equipo, es decir, las reglas que utilizarán para trabajar juntos durante el semestre:
 
 * ¿A qué horas te encontrarás?
@@ -13,3 +16,4 @@ WhatsApp para comuniación rapida, teams y discord para archivos y videollamadas
 2 sesiones una de ellas presencial otra asincrona segun disponibilidad
 * Si surgiera un conflicto, ¿cómo se podría resolver?
 Se resolveria, con la comunicación efectiva, exponiendo los desacuerdos de cada uno y entre el grupo se decidiria cual es la mejor solución a dicho problema
+
