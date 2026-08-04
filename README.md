@@ -37,3 +37,16 @@ Subí los cambios con git add, commit y push a mi rama feature/challenge_4_SuaDa
 y después la fusioné a develop con git merge. No tuve conflictos porque nadie más 
 estaba trabajando en los mismos archivos.
 
+## Challenge 6 — The Decision Machine
+
+### Evidence
+
+![Challenge evidence](images/challenge6.png)
+### Description
+
+Implementé una máquina de comandos usando un `Map<String, Runnable>` donde cada comando 
+está asociado a una lambda que imprime su respuesta. El método executeCommand usa un 
+switch para validar que el comando exista antes de ejecutarlo con .run(). Hice los 8 
+comandos. Subí los cambios con git add, 
+commit y push a mi rama feature/challenge_6_SuaDaniel_2026-2, y los fusioné a develop 
+con git merge. No hubo conflictos.
