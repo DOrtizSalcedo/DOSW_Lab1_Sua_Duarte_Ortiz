@@ -20,19 +20,20 @@ WhatsApp para comuniación rapida, teams y discord para archivos y videollamadas
 Se resolveria, con la comunicación efectiva, exponiendo los desacuerdos de cada uno y entre el grupo se decidiria cual es la mejor solución a dicho problema
 
 
-## Challenge N — Challenge Name
+## Challenge 4 — The Treasure of Duplicate Keys
 
 ### Evidence
 
-![Challenge evidence](images/challengeN.png)
-
+![Challenge evidence](images/challenge4.png)
 ### Description
 
-Briefly explain:
-
-- What was implemented.
-- How the work was divided.
-- Which Git operations were used.
-- Which conflicts appeared.
-- How the conflicts were resolved.
+Para este challenge implementé dos métodos que guardan datos en un HashMap y en un 
+Hashtable, ambos ignorando las claves que ya existen (usando putIfAbsent). Luego hice 
+un método que junta los dos mapas: si una clave se repite en ambos, se queda con el 
+valor del Hashtable, y al final las claves quedan en mayúsculas y ordenadas usando 
+un TreeMap con stream y Collectors.toMap.
+ 
+Subí los cambios con git add, commit y push a mi rama feature/challenge_4_SuaDaniel_2026-2, 
+y después la fusioné a develop con git merge. No tuve conflictos porque nadie más 
+estaba trabajando en los mismos archivos.
 
