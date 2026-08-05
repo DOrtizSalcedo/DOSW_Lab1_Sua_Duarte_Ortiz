@@ -7,17 +7,6 @@
   
 * David Felipe Ortiz Salcedo
 
-## Acuerdos de trabajo en equipo
-Cada equipo debe definir acuerdos de trabajo en equipo, es decir, las reglas que utilizarán para trabajar juntos durante el semestre:
-
-* ¿A qué horas se encontrarán?
-Nos encontraremos ya sea presencial o asincronamente en alguna de las siguientes franjas o en varias de ellas: lunes por la mañana, martes 1:00 pm - 2:30 pm y jueves 8:30 - 10:00.
-* ¿Cuáles serán sus canales de comunicación: Teams, WhatsApp, Slack...?
-WhatsApp para comuniación rapida, teams y discord para archivos y videollamadas.
-* ¿Con qué frecuencia se van a reunir?
-2 sesiones una de ellas presencial otra asincrona según la disponibilidad de cada integrante.
-* Si surgiera un conflicto, ¿cómo se podría resolver?
-Se resolveria con la comunicación efectiva, exponiendo los desacuerdos de cada uno y entre el grupo se decidirá cual es la mejor solución al problema que surja.
 
 ## Reto 1 - Welcome Message
 
@@ -86,3 +75,39 @@ switch para validar que el comando exista antes de ejecutarlo con .run(). Hice l
 comandos. Subí los cambios con git add, 
 commit y push a mi rama feature/challenge_6_SuaDaniel_2026-2, y los fusioné a develop 
 con git merge. No hubo conflictos.
+
+
+## Questions
+### 1. Acuerdos de trabajo en equipo
+
+* ¿A qué horas te encontrarás?
+Nos encontraremos ya sea presencial o asincronamente en alguna de las siguientes franjas o en varias de ellas lunes de por la mañana, martes 1:00 pm - 2:30 pm y jueves 8:30 - 10:00
+* ¿Cuáles serán tus canales de comunicación: Teams, WhatsApp, Slack...?
+WhatsApp para comuniación rapida, teams y discord para archivos y videollamadas
+* ¿Con qué frecuencia os encontraréis?
+2 sesiones una de ellas presencial otra asincrona segun disponibilidad
+* Si surgiera un conflicto, ¿cómo se podría resolver?
+Se resolveria, con la comunicación efectiva, exponiendo los desacuerdos de cada uno y entre el grupo se decidiria cual es la mejor solución a dicho problema
+
+### 2. ¿Cual es la diferencia entre git merge y git rebase?
+merge une dos ramas creando un nuevo commit que combina los historiales. rebase mueve los commits de una rama para que queden encima de otra, como si hubieran partido desde ahi es decir reescribe el historial para que se vea lineal
+
+### 3. ¿Que pasa cuando dos ramas modifican la misma línea de un archivo?
+como git no puede decidir automaticamente cual cambio conservar, genera un conficto de merge. Marcando el archivo con simbolos de flecha, mostrando ambas versiones el programadores debe editar manualmente para resolver que es lo que deja
+
+### 4. ¿Como mostrar grarficamente el historial de ramas y fusiones en la terminal?
+usando el comando 
+```
+git log --online --graph --decorate --all
+
+```
+
+Podemos ver como se dibuja un arbol ascii mostrando ramas. commits t donde se fusionaron
+
+![alt text](images/tree.png)
+
+### 5. ¿Diferencia entre commit y push?
+
+commit guarda el progreso en el historial local(de mi pc) push envia dichos commits al repositorio github, haciendolos visibles para todos
+
+
