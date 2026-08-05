@@ -26,11 +26,7 @@ public class ParallelRace {
     }
 
     public static boolean maxValueMultiplier(Integer maxNumber) {
-        if(maxNumber % 2 == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return maxNumber % 2 == 0 ? true : false;
     }
 
     public static void main(String[] args) {
