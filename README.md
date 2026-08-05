@@ -58,6 +58,21 @@ Subí los cambios con git add, commit y push a mi rama feature/challenge_4_SuaDa
 y después la fusioné a develop con git merge. No tuve conflictos porque nadie más 
 estaba trabajando en los mismos archivos.
 
+## Reto 5 — Battle of Sets
+
+### Evidencia
+
+![Challenge evidence](images/challenge5.png)
+### Descripción
+
+Para este reto hice dos métodos usando stream().filter(): En el metodo 1 convertí un HashSet a Stream 
+para dejar solo los numero % 3 != 0, y en el metodo2 hice lo mismo con un Tregit statuseSet para descartar 
+los múltiplos de 5. En el main junte los dos conjuntos filtrados en un TreeSet e imprimí todo 
+usando .forEach() con una función lambda.
+
+Subí los cambios con git add, commit y push a mi rama feature/challenge5_JuanDuarte_2026-2, y 
+después la fusioné a develop con git merge. 
+
 ## Reto 6 — The Decision Machine
 
 ### Evidencia
