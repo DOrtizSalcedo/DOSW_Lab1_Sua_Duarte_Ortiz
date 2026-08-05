@@ -1,31 +1,23 @@
-
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
+import java.util.stream.Collectors;
 
 public class Challenge5 {
 
-    // metodo 1 almacena y elimina mltiplos de 3
+    // metodo 1 almacena y elimina multiplos de 3
     public static Set<Integer> filtrarMultiplosDeTres(Set<Integer> entrada) {
-        Set<Integer> resultado = new HashSet<>();
-        for (Integer numero : entrada) {
-            if (numero % 3 != 0) { 
-                resultado.add(numero);
-            }
-        }
-        return resultado;
+        return entrada.stream()
+                .filter(numero -> numero % 3 != 0)
+                .collect(Collectors.toCollection(HashSet::new));
     }
 
     // metodo 2 almacena y elimina multiplos de 5
     public static Set<Integer> filtrarMultiplosDeCinco(Set<Integer> entrada) {
-        Set<Integer> resultado = new TreeSet<>();
-        for (Integer numero : entrada) {
-            if (numero % 5 != 0) { 
-                resultado.add(numero);
-            }
-        }
-        return resultado;
+        return entrada.stream()
+                .filter(numero -> numero % 5 != 0)
+                .collect(Collectors.toCollection(TreeSet::new));
     }
 
     public static void main(String[] args) {
@@ -41,7 +33,7 @@ public class Challenge5 {
         Set<Integer> arenaFinal = new TreeSet<>(setFiltradoTres);
         arenaFinal.addAll(setFiltradoCinco);
 
-        
+        // Imprime usando lambda
         arenaFinal.forEach(numero -> System.out.println("Number in the arena: " + numero));
     }
 }
