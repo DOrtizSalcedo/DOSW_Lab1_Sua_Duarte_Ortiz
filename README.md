@@ -2,30 +2,36 @@
 
 ## Integrantes:
 * Daniel Felipe Sua Siempira
-  
-* David Felipe Ortiz Salcedo
 
 * Juan Pablo Duarte Silva
+  
+* David Felipe Ortiz Salcedo
 
 ## Acuerdos de trabajo en equipo
 Cada equipo debe definir acuerdos de trabajo en equipo, es decir, las reglas que utilizarán para trabajar juntos durante el semestre:
 
-* ¿A qué horas te encontrarás?
-Nos encontraremos ya sea presencial o asincronamente en alguna de las siguientes franjas o en varias de ellas lunes de por la mañana, martes 1:00 pm - 2:30 pm y jueves 8:30 - 10:00
-* ¿Cuáles serán tus canales de comunicación: Teams, WhatsApp, Slack...?
-WhatsApp para comuniación rapida, teams y discord para archivos y videollamadas
-* ¿Con qué frecuencia os encontraréis?
-2 sesiones una de ellas presencial otra asincrona segun disponibilidad
+* ¿A qué horas se encontrarán?
+Nos encontraremos ya sea presencial o asincronamente en alguna de las siguientes franjas o en varias de ellas: lunes por la mañana, martes 1:00 pm - 2:30 pm y jueves 8:30 - 10:00.
+* ¿Cuáles serán sus canales de comunicación: Teams, WhatsApp, Slack...?
+WhatsApp para comuniación rapida, teams y discord para archivos y videollamadas.
+* ¿Con qué frecuencia se van a reunir?
+2 sesiones una de ellas presencial otra asincrona según la disponibilidad de cada integrante.
 * Si surgiera un conflicto, ¿cómo se podría resolver?
-Se resolveria, con la comunicación efectiva, exponiendo los desacuerdos de cada uno y entre el grupo se decidiria cual es la mejor solución a dicho problema
+Se resolveria con la comunicación efectiva, exponiendo los desacuerdos de cada uno y entre el grupo se decidirá cual es la mejor solución al problema que surja.
+
+## Reto 1 - Welcome Message
+
+### Evidencia
+![Challenge evidence](images/challenge1.png)
+### Descripción
 
 
-## Challenge 4 — The Treasure of Duplicate Keys
+## Reto 4 — The Treasure of Duplicate Keys
 
-### Evidence
+### Evidencia
 
 ![Challenge evidence](images/challenge4.png)
-### Description
+### Descripción
 
 Para este challenge implementé dos métodos que guardan datos en un HashMap y en un 
 Hashtable, ambos ignorando las claves que ya existen (usando putIfAbsent). Luego hice 
@@ -37,12 +43,12 @@ Subí los cambios con git add, commit y push a mi rama feature/challenge_4_SuaDa
 y después la fusioné a develop con git merge. No tuve conflictos porque nadie más 
 estaba trabajando en los mismos archivos.
 
-## Challenge 6 — The Decision Machine
+## Reto 6 — The Decision Machine
 
-### Evidence
+### Evidencia
 
 ![Challenge evidence](images/challenge6.png)
-### Description
+### Descripción
 
 Implementé una máquina de comandos usando un `Map<String, Runnable>` donde cada comando 
 está asociado a una lambda que imprime su respuesta. El método executeCommand usa un 
