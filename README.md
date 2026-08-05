@@ -58,7 +58,7 @@ Subí los cambios con git add, commit y push a mi rama feature/challenge_4_SuaDa
 y después la fusioné a develop con git merge. No tuve conflictos porque nadie más 
 estaba trabajando en los mismos archivos.
 
-## Reto 5 — The Decision Machine
+## Reto 5 — Battle of Sets
 
 ### Evidencia
 
