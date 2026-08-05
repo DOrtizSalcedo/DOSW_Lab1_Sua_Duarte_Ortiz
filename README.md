@@ -28,7 +28,9 @@ Se resolveria con la comunicación efectiva, exponiendo los desacuerdos de cada 
 
 Para la realización de este reto, se usó una lista para guardar
 los objetos estudiante de acuerdo a la cantidad de miembros que hay
-en el grupo. Así mismo, se usó un stream para filtrar los datos
+en el grupo. 
+
+Así mismo, se usó un stream para filtrar los datos
 de los estudiantes y se utilizó el método map para transformar los
 datos con el uso de métodos getter de acuerdo a la información de cada
 estudiante. Seguidamente, se utilizó el método joining de la clase
