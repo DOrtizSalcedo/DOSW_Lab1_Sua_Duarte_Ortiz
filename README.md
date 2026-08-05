@@ -22,9 +22,22 @@ Se resolveria con la comunicación efectiva, exponiendo los desacuerdos de cada 
 ## Reto 1 - Welcome Message
 
 ### Evidencia
+
 ![Challenge evidence](images/challenge1.png)
 ### Descripción
 
+Para la realización de este reto, se usó una lista para guardar
+los objetos estudiante de acuerdo a la cantidad de miembros que hay
+en el grupo. Así mismo, se usó un stream para filtrar los datos
+de los estudiantes y se utilizó el método map para transformar los
+datos con el uso de métodos getter de acuerdo a la información de cada
+estudiante. Seguidamente, se utilizó el método joining de la clase
+Collectors para unir el texto y se pueda ver correctamente.
+Finalmente, se utiliza otro stream para obtener los correos de los
+estudiantes.
+Los comandos usados para subir este reto en el repositorio fueron git add, 
+commit y push en la rama feature/challenge1_OrtizDavid_2026-2. 
+No hubo conflictos durante el merge en develop.
 
 ## Reto 4 — The Treasure of Duplicate Keys
 
@@ -33,7 +46,7 @@ Se resolveria con la comunicación efectiva, exponiendo los desacuerdos de cada 
 ![Challenge evidence](images/challenge4.png)
 ### Descripción
 
-Para este challenge implementé dos métodos que guardan datos en un HashMap y en un 
+Para este reto implementé dos métodos que guardan datos en un HashMap y en un 
 Hashtable, ambos ignorando las claves que ya existen (usando putIfAbsent). Luego hice 
 un método que junta los dos mapas: si una clave se repite en ambos, se queda con el 
 valor del Hashtable, y al final las claves quedan en mayúsculas y ordenadas usando 
