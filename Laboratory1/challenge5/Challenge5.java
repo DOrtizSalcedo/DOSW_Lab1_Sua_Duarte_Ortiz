@@ -35,4 +35,6 @@ public class Challenge5 {
 
         // Imprime usando lambda
         arenaFinal.forEach(numero -> System.out.println("Number in the arena: " + numero));
-}
+    }
+
+} 
