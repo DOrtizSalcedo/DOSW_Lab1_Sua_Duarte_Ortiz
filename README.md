@@ -30,6 +30,21 @@ Los comandos usados para subir este reto en el repositorio fueron git add,
 commit y push en la rama feature/challenge1_OrtizDavid_2026-2. 
 No hubo conflictos durante el merge en develop.
 
+## Reto 3 — The Mysterious Echo
+
+### Evidencia
+
+![Challenge evidence](images/challenge3.png)
+### Descripción
+
+Para este problema para la primera parte cree repeatThreeTimes() usando StringBuilder y para la segunda parte cree 
+reverseText() usando StringBuffer. En la lambda echoProcess use Streams para repetir el texto tres veces y luego invertirlo uniendo ambos.
+
+- Se dividio el trabajo en dos ramas: feature/challenge3_builder_Duarte_2026-2 y feature/challenge3_buffer_JuanDuarte_2026-2.
+- Use git add, git commit, git push, git merge y git pull origin develop.
+
+El conflicto paso al fusionar la segunda rama en develop, ya que ambas usaban la misma función lambda echoProcess en Challenge3 y lo resolvimos aceptando ambos cambios en VS Code (accept both changes), luego unificamo StringBuilder + Stream + StringBuffer y lo guardamos con git add, git commit y git push.
+
 ## Reto 4 — The Treasure of Duplicate Keys
 
 ### Evidencia
@@ -54,12 +69,12 @@ estaba trabajando en los mismos archivos.
 ![Challenge evidence](images/challenge5.png)
 ### Descripción
 
-Para este reto hice dos métodos usando stream().filter(): En el metodo 1 convertí un HashSet a Stream 
+Para este reto hice dos métodos usando stream().filter(): En el metodo 1 converti un HashSet a Stream 
 para dejar solo los numero % 3 != 0, y en el metodo2 hice lo mismo con un Tregit statuseSet para descartar 
-los múltiplos de 5. En el main junte los dos conjuntos filtrados en un TreeSet e imprimí todo 
-usando .forEach() con una función lambda.
+los multiplos de 5. En el main junte los dos conjuntos filtrados en un TreeSet e imprimi todo 
+usando .forEach() con una funcion lambda.
 
-Subí los cambios con git add, commit y push a mi rama feature/challenge5_JuanDuarte_2026-2, y 
+Subi los cambios con git add, commit y push a mi rama feature/challenge5_JuanDuarte_2026-2, y 
 después la fusioné a develop con git merge. 
 
 ## Reto 6 — The Decision Machine
@@ -110,4 +125,18 @@ Podemos ver como se dibuja un arbol ascii mostrando ramas. commits t donde se fu
 
 commit guarda el progreso en el historial local(de mi pc) push envia dichos commits al repositorio github, haciendolos visibles para todos
 
+### 6. ¿Qué son git stashy git stash poppara qué se utilizan?
 
+git stash sirve para guardar temporalmente los cambios que se estanhaciendo sin hacer un commit y git stash pop recupera esos cambios y nos deja seguir trabajando desde donde nos habiasmos quedado.
+
+### 7. ¿Cuál es la diferencia entre HashMapy Hashtable?
+
+Los dos sirven para guardar info usando una clave y un valor, pero la diferencia es HashMap es mas rapido y permite guardar valores null. En cambio, Hashtable es un poco mas antiguo, no permite null y funciona mejor cuando varias partes del programa lo usan al mismo tiempo.
+
+### 8. ¿Qué ventajas ofrece Collectors.toMap()respecto a un circuito tradicional?
+
+sirve para convertir una coleccion en un Map de forma mas rapida y ordenada. Es como hacer en una sola linea lo que con un for requeriria varias, ademas de facilitar el manejo de claves repetidas.
+
+### 9. Cuando se utiliza stream().map()en una lista de objetos, ¿qué tipo de operación se realiza?
+
+Se realiza una transformacion de los elementos. Es como tomar cada objeto de la lista y cambiarlo por otro dato. Por ejemplo, de una lista de usuarios podemos tener una lista con solo sus nombres.
