@@ -49,7 +49,12 @@ para poder retornar el número mayor, el número menor y la cantidad total de el
 
 Finalmente, se creó una función que contenga el objeto Results, reutilizando todo lo hecho anteriormente.
 
-- Se usaron los comandos `git add`, `git commit`, `git push`, `git switch`, `git pull origin` para ramas, subramas y develop. Los conflictos que aparecieron más que todo fue por eliminación de archivos y/o modificación de código, estos fueron solucionados editando el código que Visual Studio Code permite modificar. 
+- Se usaron los comandos `git add`, `git commit`, `git push`, `git switch`, `git pull origin` para ramas, subramas y develop. Los conflictos que aparecieron más que todo fue por eliminación de archivos y/o modificación de código, estos fueron solucionados editando el código que Visual Studio Code permite modificar.
+
+El prompt utilizado para poder entender cómo empezar los retos 1 y 2 fue el siguiente:
+"Necesito que me expliques cómo puedo llegar a la solución de este reto, estoy utilizando Streams y expresiones lambda por primera vez por lo que no estoy
+muy familiarizado con ello así que me sería de gran utilidad que me explicaras a cómo podría manejarlos de manera correcta y si puedes, darme ejemplos sencillos
+tipo metaforas para entender a cómo llegaste a esa solución."
 
 ## Reto 3 — The Mysterious Echo
 
@@ -91,7 +96,7 @@ Se subieron los cambios con `git add`, `git commit` y `git push` a la rama `feat
 después se fusionó a develop con `git merge`. 
 
 
-El siguiente promt fue usado para obteener una base de como iniciar a desarrollar los challenge propuestos (3 y 5):
+El siguiente promt fue usado para obtener una base de como iniciar a desarrollar los retos propuestos (3 y 5):
 """
 Tengo el siguiente desafío de programación en Java y quiero que generes un codigo base de forma correcta y bien estructurada pero no completa para yo desarrollarla, deberas seguir exactamente todos los requisitos. No omitas ninguno.
 
@@ -135,7 +140,7 @@ Importante: No quiero una base excesivamente avanzada. Quiero una implementació
 ![Challenge evidence](images/challenge6.png)
 ### Descripción
 
-Se implmentó una máquina de comandos usando un `Map<String, Runnable>` donde cada comando está asociado a una lambda que imprime su respuesta. El método executeCommand usa un switch para validar que el comando exista antes de ejecutarlo con `.run()`. Se Hicieron los 8 
+Se implementó una máquina de comandos usando un `Map<String, Runnable>` donde cada comando está asociado a una lambda que imprime su respuesta. El método executeCommand usa un switch para validar que el comando exista antes de ejecutarlo con `.run()`. Se Hicieron los 8 
 comandos. Se subieron los cambios con `git add`, `git commit` y `git push` a la rama `feature/challenge_6_SuaDaniel_2026-2`, y se fusionaron a develop con `git merge`. No hubo conflictos.
 
 
