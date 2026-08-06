@@ -25,15 +25,21 @@ public class ParallelRace {
         return numbers.stream().count();
     }
 
+    public static boolean maxDivisible(Integer maxNumber) {
+        return maxNumber % 2 == 0 ? true : false;
+    }
+
     public static void main(String[] args) {
         List<Integer> listNumbers = Arrays.asList(40, 50, 18, 30, 90, 1000);
        
         Integer longNumber = findMaxNumber(listNumbers);
         Integer smallNumber = findMinNumber(listNumbers);
         Long longList = totalElements(listNumbers);
+        boolean divisible = maxDivisible(longNumber);
 
         System.out.println("Max number is: " + longNumber);
         System.out.println("Min number is: " + smallNumber);
         System.out.println("Total number of elements are: " + longList);
+        System.out.println(divisible);
     }
 }
