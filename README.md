@@ -22,12 +22,15 @@ en el grupo.
 Así mismo, se usó un stream para filtrar los datos
 de los estudiantes y se utilizó el método map para transformar los
 datos con el uso de métodos getter de acuerdo a la información de cada
-estudiante. Seguidamente, se utilizó el método joining de la clase
-Collectors para unir el texto y se pueda ver correctamente.
+estudiante. 
+
+Seguidamente, se utilizó el método joining de la clase
+`Collectors` para unir el texto y se pueda ver correctamente.
 Finalmente, se utiliza otro stream para obtener los correos de los
 estudiantes.
-Los comandos usados para subir este reto en el repositorio fueron git add, 
-commit y push en la rama feature/challenge1_OrtizDavid_2026-2. 
+
+Los comandos usados para subir este reto en el repositorio fueron `git add`, 
+`git commit` y `git push` en la rama `feature/challenge1_OrtizDavid_2026-2`. 
 No hubo conflictos durante el merge en develop.
 
 ## Reto 2 - Parallel Commit Race
