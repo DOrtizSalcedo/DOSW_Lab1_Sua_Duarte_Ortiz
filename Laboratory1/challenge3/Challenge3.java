@@ -4,27 +4,27 @@ import java.util.stream.IntStream;
 
 public class Challenge3 {
 
-    // mtodo StringBuilder - para repetir x3
+    // StringBuilder method - to repeat x3
     public static String repeatThreeTimes(String text) {
         StringBuilder sb = new StringBuilder();
         sb.append(text).append(" ").append(text).append(" ").append(text);
         return sb.toString();
     }
 
-    // metodo para invertir las ´palabras 
+    // method to reverse the words 
     public static String reverseText(String text) {
         StringBuffer sb = new StringBuffer(text);
         return sb.reverse().toString();
     }
 
-    // Toma ambos mensajes, los repite y los pone al revez
+    // It takes both messages, repeats them, and reverses them.
     public static Function<String[], String> echoProcess = mensajes -> {
-        // Repite 
+        // Repeat
         String resultadoRepetido = IntStream.range(0, mensajes.length)
                 .mapToObj(i -> repeatThreeTimes(mensajes[i]))
                 .collect(Collectors.joining(" "));
 
-        // invuierte
+        // Invest
         StringBuffer buffer = new StringBuffer(resultadoRepetido);
         return buffer.reverse().toString();
     };

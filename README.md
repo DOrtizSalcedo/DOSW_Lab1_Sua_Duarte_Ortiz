@@ -90,6 +90,44 @@ Para este reto se hicieron dos métodos usando `stream().filter()`: En el métod
 Se subieron los cambios con `git add`, `git commit` y `git push` a la rama `feature/challenge5_JuanDuarte_2026-2`, y 
 después se fusionó a develop con `git merge`. 
 
+
+El siguiente promt fue usado para obteener una base de como iniciar a desarrollar los challenge propuestos (3 y 5):
+"""
+Tengo el siguiente desafío de programación en Java y quiero que generes un codigo base de forma correcta y bien estructurada pero no completa para yo desarrollarla, deberas seguir exactamente todos los requisitos. No omitas ninguno.
+
+Desafío:
+- Crear un método que almacene números enteros aleatorios en un HashSet.
+- Eliminar todos los múltiplos de 3 utilizando stream().filter().
+- Crear un método que almacene números enteros aleatorios en un TreeSet.
+- Mantener el orden ascendente natural del TreeSet.
+- Eliminar todos los múltiplos de 5 utilizando stream().filter().
+- Fusionar ambas colecciones en una única estructura ordenada.
+- Eliminar los elementos duplicados.
+- Conservar el orden ascendente.
+- Imprimir cada número utilizando una expresión lambda con forEach(), mostrando el mensaje: “Number in the arena: X”
+
+Requisitos obligatorios:
+
+- Utilizar HashSet.
+- Utilizar TreeSet.
+- Utilizar stream().filter().
+- Utilizar expresiones lambda.
+- No utilizar código innecesario.
+- El código debe compilar y ejecutarse sin errores siguiendo los principios SOLID
+- Seguir buenas prácticas de programación (Clean Code) y usar nombres de variables y métodos descriptivos.
+
+Además de la base del código, quiero que:
+1. Expliques paso a paso cómo funciona la solución.
+2. Expliques por qué se eligió cada estructura de datos (HashSet y TreeSet).
+3. Expliques cómo funciona stream().filter() en este caso.
+4. Expliques cómo funciona la expresión lambda utilizada en forEach().
+5. Indiques la complejidad temporal aproximada de las operaciones principales.
+6. Muestres un ejemplo de ejecución.
+7. Señales los errores más comunes que podría cometer al intentar resolver este desafío y cómo evitarlos.
+
+Importante: No quiero una base excesivamente avanzada. Quiero una implementación con un nivel de dificultad acorde a un estudiante que está aprendiendo Java, fácil de entender y que cumpla exactamente con lo solicitado.
+"""
+
 ## Reto 6 — The Decision Machine
 
 ### Evidencia
