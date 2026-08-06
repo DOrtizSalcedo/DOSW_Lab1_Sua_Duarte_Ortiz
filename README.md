@@ -83,6 +83,14 @@ valor del Hashtable, y al final las claves quedan en mayúsculas y ordenadas usa
 Se subieron los cambios con `git add`, `git commit` y `git push` a la rama `feature/challenge_4_SuaDaniel_2026-2`, 
 y después se fusionó a develop con `git merge`. No hubo conflictos porque nadie más estaba trabajando en los mismos archivos.
 
+algunos prompts usados en Claude para entender la metodologia git flow aplicada a este desafio fueron:
+
+"donde se hace lo de Fusione la rama de desafío completa en develop? 5. Preservar el historial de la sucursal."
+
+"explicame los comandos paso a paso"
+
+
+
 ## Reto 5 — Battle of Sets
 
 ### Evidencia
@@ -142,6 +150,14 @@ Importante: No quiero una base excesivamente avanzada. Quiero una implementació
 
 Se implementó una máquina de comandos usando un `Map<String, Runnable>` donde cada comando está asociado a una lambda que imprime su respuesta. El método executeCommand usa un switch para validar que el comando exista antes de ejecutarlo con `.run()`. Se Hicieron los 8 
 comandos. Se subieron los cambios con `git add`, `git commit` y `git push` a la rama `feature/challenge_6_SuaDaniel_2026-2`, y se fusionaron a develop con `git merge`. No hubo conflictos.
+
+Los siguientes prompts fueron usados para ir contruyendo la solución y que la IA(Claude) me fuera guiando y diciendome si voy bien o mal o corrigiendo sintaxis
+
+* "Ahora vamos a hacer el challenge 6 completo pero tu mes vas diciendo paso a paso haz esto luego te confirmo y asi sucesivamente"
+
+* "me refiero a que me digas el paso sin la solucion sino me aucerdo hay si te pregunto"
+
+
 
 
 ## Respuestas a Cuestionario
