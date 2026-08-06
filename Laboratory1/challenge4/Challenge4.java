@@ -4,6 +4,14 @@ import java.util.Map;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
 
+/**
+ * Class that merge HashMap and Hashtable based on various features
+ * 
+ * @author Daniel Felipe Sua Siempira
+ * @author Juan Pablo Duarte Silva
+ * @author David Felipe Ortiz Salcedo
+ */
+
 public class Challenge4 {
 
     private Map<String, Integer> hashMap = new HashMap<>();
@@ -19,11 +27,11 @@ public class Challenge4 {
         hashtable.putIfAbsent(clave, valor);
     }
 
-    // fusion de ambos
+    // merge
     public Map<String, Integer> mergeMaps() {
         Map<String, Integer> merged = new HashMap<>(hashMap);
-        merged.putAll(hashtable); // prioridad en duplicados
-
+        merged.putAll(hashtable);
+        
         return merged.entrySet().stream()
             .collect(Collectors.toMap(
                 e -> e.getKey().toUpperCase(),
