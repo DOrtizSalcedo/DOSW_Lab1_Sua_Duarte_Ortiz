@@ -24,13 +24,20 @@ public class ParallelRace {
     public static Long totalElements(List<Integer> numbers) {
         return numbers.stream().count();
     }
+    public static boolean maxValueMultiplier(Integer maxNumber) {
+        return maxNumber % 2 == 0 ? true : false;
+    }
 
     public static boolean maxDivisible(Integer maxNumber) {
         return maxNumber % 2 == 0 ? true : false;
     }
 
-    public static String isEven(Integer listSize) {
-        return listSize % 2 == 0 ? "Odd" : "Even";
+    public static String listIsEven(Integer length) {
+        return length % 2 == 0 ? "even" : "odd";
+    }
+
+    public static String listIsOdd(Integer listSize) {
+        return listSize % 2 == 0 ? "odd" : "even";
     }
 
     public static void main(String[] args) {
@@ -40,13 +47,17 @@ public class ParallelRace {
         Integer longNumber = findMaxNumber(listNumbers);
         Integer smallNumber = findMinNumber(listNumbers);
         Long longList = totalElements(listNumbers);
+        Boolean verifyMultiplier = maxValueMultiplier(longNumber);
+        String isEven = listIsEven(listSize);
         boolean divisible = maxDivisible(longNumber);
-        String odd = isEven(listSize);
+        String isOdd = listIsOdd(listSize);
 
         System.out.println("Max number is: " + longNumber);
         System.out.println("Min number is: " + smallNumber);
         System.out.println("Total number of elements are: " + longList);
-        System.out.println(divisible);
-        System.out.println("The list size is: " + odd);
+        System.out.println("Is multiplier of 2?: " + verifyMultiplier);
+        System.out.println("The list is: " + isEven);
+        System.out.println("Is divisible by 2?: " + divisible);
+        System.out.println("The list size is: " + isOdd);
     }
 }
