@@ -101,16 +101,20 @@ Se implmentó una máquina de comandos usando un `Map<String, Runnable>` donde c
 comandos. Se subieron los cambios con `git add`, `git commit` y `git push` a la rama `feature/challenge_6_SuaDaniel_2026-2`, y se fusionaron a develop con `git merge`. No hubo conflictos.
 
 
-## Questions
+## Respuestas a Cuestionario
 ### 1. Acuerdos de trabajo en equipo
 
 * ¿A qué horas se encontrarán?
+
 Nos encontraremos ya sea presencial o asincronamente en alguna de las siguientes franjas o en varias de ellas lunes de por la mañana, martes 1:00 pm - 2:30 pm y jueves 8:30 - 10:00.
 * ¿Cuáles serán sus canales de comunicación: Teams, WhatsApp, Slack...?
+
 WhatsApp para comuniación rapida, teams y discord para archivos y videollamadas.
 * ¿Con qué frecuencia se van a encontrar?
+
 2 sesiones, una de ellas presencial otra asincronica según disponibilidad.
 * Si surgiera un conflicto, ¿cómo se podría resolver?
+
 Se resolvería con la comunicación efectiva, exponiendo los desacuerdos de cada uno y entre el grupo se decidiría cual es la mejor solución a dicho problema.
 
 ### 2. ¿Cuál es la diferencia entre git merge y git rebase?
