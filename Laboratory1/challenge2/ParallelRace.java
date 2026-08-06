@@ -29,7 +29,7 @@ public class ParallelRace {
         return maxNumber % 2 == 0 ? true : false;
     }
 
-    public static String isOdd(Integer listSize) {
+    public static String isEven(Integer listSize) {
         return listSize % 2 == 0 ? "Odd" : "Even";
     }
 
@@ -41,7 +41,7 @@ public class ParallelRace {
         Integer smallNumber = findMinNumber(listNumbers);
         Long longList = totalElements(listNumbers);
         boolean divisible = maxDivisible(longNumber);
-        String odd = isOdd(listSize);
+        String odd = isEven(listSize);
 
         System.out.println("Max number is: " + longNumber);
         System.out.println("Min number is: " + smallNumber);
