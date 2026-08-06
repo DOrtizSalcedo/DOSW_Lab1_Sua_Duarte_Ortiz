@@ -29,17 +29,24 @@ public class ParallelRace {
         return maxNumber % 2 == 0 ? true : false;
     }
 
+    public static String isOdd(Integer listSize) {
+        return listSize % 2 == 0 ? "Odd" : "Even";
+    }
+
     public static void main(String[] args) {
         List<Integer> listNumbers = Arrays.asList(40, 50, 18, 30, 90, 1000);
+        Integer listSize = listNumbers.size();
        
         Integer longNumber = findMaxNumber(listNumbers);
         Integer smallNumber = findMinNumber(listNumbers);
         Long longList = totalElements(listNumbers);
         boolean divisible = maxDivisible(longNumber);
+        String odd = isOdd(listSize);
 
         System.out.println("Max number is: " + longNumber);
         System.out.println("Min number is: " + smallNumber);
         System.out.println("Total number of elements are: " + longList);
         System.out.println(divisible);
+        System.out.println("The list size is: " + odd);
     }
 }
