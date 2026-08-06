@@ -47,6 +47,14 @@ Subí los cambios con git add, commit y push a mi rama feature/challenge_4_SuaDa
 y después la fusioné a develop con git merge. No tuve conflictos porque nadie más 
 estaba trabajando en los mismos archivos.
 
+algunos prompts usados en Claude para entender la metodologia git flow aplicada a este desafio fueron:
+
+"donde se hace lo de Fusione la rama de desafío completa en develop? 5. Preservar el historial de la sucursal."
+
+"explicame los comandos paso a paso"
+
+
+
 ## Reto 5 — Battle of Sets
 
 ### Evidencia
@@ -75,6 +83,14 @@ switch para validar que el comando exista antes de ejecutarlo con .run(). Hice l
 comandos. Subí los cambios con git add, 
 commit y push a mi rama feature/challenge_6_SuaDaniel_2026-2, y los fusioné a develop 
 con git merge. No hubo conflictos.
+
+Los siguientes prompts fueron usados para ir contruyendo la solución y que la IA(Claude) me fuera guiando y diciendome si voy bien o mal o corrigiendo sintaxis
+
+* "Ahora vamos a hacer el challenge 6 completo pero tu mes vas diciendo paso a paso haz esto luego te confirmo y asi sucesivamente"
+
+* "me refiero a que me digas el paso sin la solucion sino me aucerdo hay si te pregunto"
+
+
 
 
 ## Questions
