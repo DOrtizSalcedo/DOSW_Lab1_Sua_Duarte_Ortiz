@@ -30,6 +30,24 @@ Los comandos usados para subir este reto en el repositorio fueron git add,
 commit y push en la rama feature/challenge1_OrtizDavid_2026-2. 
 No hubo conflictos durante el merge en develop.
 
+## Reto 2 - Parallel Commit Race
+
+### Evidencia
+
+![Challenge evidence](images/challenge2.png)
+
+Primeramente, realizamos las respectivas ramas: `feature/challenge_2_Sua_Duarte_Ortiz_2026-2` y subramas: `feature/challenge2_lane_one_Ortiz_2026-2` y `feature/challenge2_lane_two_Sua_2026-2` con el fin
+de llevar la lógica de la carrera de commits y poder solucionar los
+conflictos (sin embargo, al intentar realizar dichas ramas tuvimos problemas dado que un compañero no veía las ramas por lo que tuve que
+realizarlo individualmente).
+
+Seguidamente, se implementaron las funciones lambda de la primera línea
+para poder retornar el número mayor, el número menor y la cantidad total de elementos con los métodos `min()`, `max()` y `count()` de la estructura de datos stream y se realizó la primera colisión, solucionándolo y siguiendo con la segunda línea; de la cual, era una verificación de pares usando el operador ternario y sucedió un conflicto entre archivos, logrando solucionarlo.
+
+Finalmente, se creó una función que contenga el objeto `Results`, reutilizando todo lo hecho anteriormente.
+
+- Se usaron los comandos git add, git commit, git push, git switch, git pull origin para ramas, subramas y develop. Los conflictos que aparecieron más que todo fue por eliminación de archivos y/o modificación de código, estos fueron solucionados editando el código que Visual Studio Code permite modificar. 
+
 ## Reto 3 — The Mysterious Echo
 
 ### Evidencia
@@ -40,7 +58,7 @@ No hubo conflictos durante el merge en develop.
 Para este problema para la primera parte cree repeatThreeTimes() usando StringBuilder y para la segunda parte cree 
 reverseText() usando StringBuffer. En la lambda echoProcess use Streams para repetir el texto tres veces y luego invertirlo uniendo ambos.
 
-- Se dividio el trabajo en dos ramas: feature/challenge3_builder_Duarte_2026-2 y feature/challenge3_buffer_JuanDuarte_2026-2.
+- Se dividió el trabajo en dos ramas: feature/challenge3_builder_Duarte_2026-2 y feature/challenge3_buffer_JuanDuarte_2026-2.
 - Use git add, git commit, git push, git merge y git pull origin develop.
 
 El conflicto paso al fusionar la segunda rama en develop, ya que ambas usaban la misma función lambda echoProcess en Challenge3 y lo resolvimos aceptando ambos cambios en VS Code (accept both changes), luego unificamo StringBuilder + Stream + StringBuffer y lo guardamos con git add, git commit y git push.
