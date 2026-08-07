@@ -1,6 +1,14 @@
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Class that manages and executes text-based commands using a command pattern
+ * 
+ * @author Daniel Felipe Sua Siempira
+ * @author Juan Pablo Duarte Silva
+ * @author David Felipe Ortiz Salcedo
+ */
+
 public class Challenge6 {
 
     private Map<String, Runnable> commands = new HashMap<>();
