@@ -4,6 +4,14 @@ import java.util.Set;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
 
+/**
+ * Filter the numbers by discarding multiples of 3 and 5 using Streams and combine the results into a TreeSet.
+ *
+ * @author Daniel Felipe Sua Siempira
+ * @author Juan Pablo Duarte Silva
+ * @author David Felipe Ortiz Salcedo
+ **/
+
 public class Challenge5 {
 
     // Method 1 stores and removes multiples of 3.

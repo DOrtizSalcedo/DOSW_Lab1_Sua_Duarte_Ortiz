@@ -4,6 +4,15 @@ import java.util.stream.IntStream;
 
 public class Challenge3 {
 
+/**
+ * Implementation of string processing with message repetition and word reversal 
+ * using StringBuilder, StringBuffer, and Streams.
+ * 
+ * @author Daniel Felipe Sua Siempira
+ * @author Juan Pablo Duarte Silva
+ * @author David Felipe Ortiz Salcedo
+ **/
+
     // StringBuilder method - to repeat x3
     public static String repeatThreeTimes(String text) {
         StringBuilder sb = new StringBuilder();
